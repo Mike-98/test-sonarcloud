@@ -1,10 +1,10 @@
-language:java
+language: java
 jdk:
 	-openjdk11
 addons:
 	sonarcloud:
-		organization:
-		token:
+		organization: "mike-98"
+		token: "e5f66a8dd5085239d645b4e60ab24707ea59d0bd"
 script:
 	-ant build
 	-sonar-scanner
